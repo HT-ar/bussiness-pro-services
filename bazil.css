@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+header {
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.logo {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+
+.bar {
+    width: 100%;
+    height: 13vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    display: flex;
+    margin-left: 0px;
+}
+
+.bar h2 {
+    margin-left: -470px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bar p {
+    margin-right: 20px;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(16, 19, 19);
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: #f40606;
+}
+
+.readmore:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.home:hover {
+    background-color: #087cdb;
+    color: white;
+}
+
+.blog:hover {
+    background-color: #6df505;
+    color: white;
+}
+
+.about:hover {
+    background-color: #db0637;
+    color: white;
+}
+
+.Subscribe:hover {
+    background-color: #eda90b;
+    color: white;
+}
+
+.content button {
+    border-radius: 30px;
+    color: rgb(164, 89, 89);
+    width: 100px;
+    height: 40px;
+}
+
+.content h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 250px;
+    text-decoration: underline;
+    color: #0008f4;
+
+}
+
+.content h2 {
+    color: #080808;
+}
+
+.content button {
+    border-radius: 30px;
+    background-color: #2420ef;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 21, 254);
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+.intro p{
+    color: #080808;
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+}
+
+.course-offer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.course1 img {
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 60px;
+
+}
+
+.course1 h2 {
+    color: #033054;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+
+}
+.course1 p{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.course2 img {
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+
+.course2 h2 {
+    color: #033054;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+.course2 p{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course3 img {
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+
+}
+
+.course3 h2 {
+    color: #033054;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+.course3 p{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.course-offer2 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.course4 img {
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 120px;
+
+}
+
+.course4 h2 {
+    color: #033054;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+.course4 p{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.course5 img {
+    width: 400px;
+    height: 250px;
+    margin-right: -80px;
+    margin-left: 60px;
+
+}
+
+.course5 h2 {
+    color: #033054;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+.course5 p{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course6 img {
+    width: 400px;
+    height: 250px;
+    margin-right: -50px;
+    margin-left: 50px;
+
+
+}
+
+.course6 h2 {
+    color: #033054;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+.course6 p{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    background-color: #000000;
+    height: 15vh;
+}
+
+.foot1 {
+    width: 50px;
+    margin-top: 30px;
+    height: fit-content;
+ 
+}
+
+.foot1 img {
+    width: 200px;
+    height: fit-content;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.foot2 {
+    width: 250px;
+    margin-top: 50px;
+    color: white;
+    margin-left: 800px;
+}
+
+.foot2 p a {
+    color: white;
+}
+
+.foot3 {
+    width: 250px;
+    color: white;
+    justify-content: center center;
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    margin-left: 700px
+}
+
+.foot3 ul li {
+    list-style: none;
+}
+
+.foot3 ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.copyright {
+    text-align: center;
+    color: #ffffff;
+    background-color: #6d6d7a;
+}
+
+.project {
+    color: #e80606;
+    background-color: #482929;
+    text-align: center;
+}
